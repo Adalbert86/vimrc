@@ -69,6 +69,11 @@ set runtimepath+=~/.vim/bundle/vim-gitgutter
 " GitGutterEnable
 " GitGutterSignsEnable
 
-" set runtimepath+=~/.vim/bundle/deoplete-nvim
+set runtimepath+=~/.vim/bundle/deoplete-nvim
 " Use deoplete.
-" let g:deoplete#enable_at_startup = 1
+let g:deoplete#enable_at_startup = 1
+
+set runtimepath+=~/.vim/bundle/vim-hug-neovim-rpc
+set runtimepath+=~/.vim/bundle/nvim-yarp
+set runtimepath+=~/.vim/bundle/deoplete-nvim
+
